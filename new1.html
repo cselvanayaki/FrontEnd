@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>FrontEnd UI Task</title>
+
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script>
+          $(document).ready(function(){
+          $("a").on('click', function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+              window.location.hash = hash;
+            });
+           } 
+          });
+        });
+     </script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="ui.css">
+  </head>
+  <body>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("viewall");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+    <div id="header">
+    <ul>
+      <a href="new.html"><li><img src="./images/two.jpg" height="50" width="100"></li></a>
+    </ul>
+    </div>
+    <div id="start">
+    <table><tr> 
+    <td><img src="./images/learn.jpg" width="200" height="200" style="border-radius:50%" ></td>
+    <td><img src="./images/profile.jpg" width="200" height="200" style="border-radius:50%"></td>
+    <td><img src="./images/hire.jpg" width="200" height="200" style="border-radius:50%"></td></tr>
+    <tr><td><font size="6" >Learn a skill</font></td>
+    <td><font size="6" >Build Profile</font></td>
+    <td><font size="6" >Get Hired</font></td></tr>
+    </table><br/><br/>
+    <div id="startbutton"><a href="#scroll"><button type="button"><font size="6" color="white">Get Started</font></button></a>
+    </div></div><br/>
+    <section id="scroll">
+
+    <div class="courses"><h1>Courses</h1></div><br/><br/>
+    <div class="course"><table><tr>
+    <td><div class="container"><a href="https://www.guvi.in/course-detail?course=introduction-to-ml"><img src="./images/machinelearning.jpg" width="300" height="300"><div class="textonimg"><font size="5">Introduction to Machine Learning</font></div></div></a><br/><font color="gray">The intro  to ML classification model course is meant for developers or data scientists (or anybody else) who knows basic python programming and wishes to learn about Machine Learning,with a focus on solving the problem of classification</font><br/><h3>Rs.1500 /-</h3></td>
+    <td><div class="container"><a href="https://www.guvi.in/course-detail?course=introduction-to-ml"><img src="./images/machinelearning.jpg"width="300" height="300"><div class="textonimg"><font size="5">Introduction to Machine Learning</font></div></div></a><br/><font color="gray">The intro  to ML classification model course is meant for developers or data scientists (or anybody else) who knows basic python programming and wishes to learn about Machine Learning,with a focus on solving the problem of classification</font><br/><h3>Rs.1500 /-</h3></td>
+    <td><div class="container"><a href="https://www.guvi.in/course-detail?course=introduction-to-ml"><img src="./images/machinelearning.jpg"width="300" height="300"><div class="textonimg"><font size="5">Introduction to Machine Learning</font></div></div></a><br/><font color="gray">The intro  to ML classification model course is meant for developers or data scientists (or anybody else) who knows basic python programming and wishes to learn about Machine Learning,with a focus on solving the problem of classification</font><br/><h3>Rs.1500 /-</h3></td></tr>
+    <tr>
+    <td><div class="container"><a href="https://www.guvi.in/course-detail?course=introduction-to-ml"><img src="./images/machinelearning.jpg"width="300" height="300"><div class="textonimg"><font size="5">Introduction to Machine Learning</font></div></div></a><br/><font color="gray">The intro  to ML classification model course is meant for developers or data scientists (or anybody else) who knows basic python programming and wishes to learn about Machine Learning,with a focus on solving the problem of classification</font><br/><h3>Rs.1500 /-</h3></td>
+    <td><div class="container"><a href="https://www.guvi.in/course-detail?course=introduction-to-ml"><img src="./images/machinelearning.jpg"width="300" height="300"><div class="textonimg"><font size="5">Introduction to Machine Learning</font></div></div></a><br/><font color="gray">The intro  to ML classification model course is meant for developers or data scientists (or anybody else) who knows basic python programming and wishes to learn about Machine Learning,with a focus on solving the problem of classification</font><br/><h3>Rs.1500 /-</h3></td>
+    <td><div class="container"><a href="https://www.guvi.in/course-detail?course=introduction-to-ml"><img src="./images/machinelearning.jpg"width="300" height="300"><div class="textonimg"><font size="5">Introduction to Machine Learning</font></div></div></a><br/><font color="gray">The intro  to ML classification model course is meant for developers or data scientists (or anybody else) who knows basic python programming and wishes to learn about Machine Learning,with a focus on solving the problem of classification</font><br/><h3>Rs.1500 /-</h3></td></tr>
+    </table></div><br/><br/>
+    <div id="viewall"><div class="course"><table><tr>
+    <td><div class="container"><a href="https://www.guvi.in/course-detail?course=introduction-to-ml"><img src="./images/machinelearning.jpg"width="300" height="300"><div class="textonimg"><font size="5">Introduction to Machine Learning</font></div></div></a><br/><font color="gray">The intro  to ML classification model course is meant for developers or data scientists (or anybody else) who knows basic python programming and wishes to learn about Machine Learning,with a focus on solving the problem of classification</font><br/><h3>Rs.1500 /-</h3></td>
+    <td><div class="container"><a href="https://www.guvi.in/course-detail?course=introduction-to-ml"><img src="./images/machinelearning.jpg"width="300" height="300"><div class="textonimg"><font size="5">Introduction to Machine Learning</font></div></div></a><br/><font color="gray">The intro  to ML classification model course is meant for developers or data scientists (or anybody else) who knows basic python programming and wishes to learn about Machine Learning,with a focus on solving the problem of classification</font><br/><h3>Rs.1500 /-</h3></td>
+    <td><div class="container"><a href="https://www.guvi.in/course-detail?course=introduction-to-ml"><img src="./images/machinelearning.jpg"width="300" height="300"><div class="textonimg"><font size="5">Introduction to Machine Learning</font></div></div></a><br/><font color="gray">The intro  to ML classification model course is meant for developers or data scientists (or anybody else) who knows basic python programming and wishes to learn about Machine Learning,with a focus on solving the problem of classification</font><br/><h3>Rs.1500 /-</h3></td></tr></table>
+    </div></div>
+    <font  size="5" style="padding:600px" onclick="myFunction()" >View all</font><br/><br/>
+    </section>
+    <div class="courses"><h1>Trusted By</h1></div><br/><br/>
+
+    <div class="trust"><table>
+    <tr>
+    <td><img src="./images/annauniv.jpg"width="150" height="150"></td>
+    <td><img src="./images/bigbasket.jpg"width="150" height="150"></td>
+    <td><img src="./images/easye.jpg"width="150" height="150"></td>
+    <td><img src="./images/freshdesk.jpg"width="150" height="150"></td>
+    <td><img src="./images/juspay.jpg"width="150" height="150"></td>
+    <td><img src="./images/paypal.jpg"width="150" height="150"></td>
+    <td><img src="./images/orange.jpg"width="150" height="150"></td>
+    <td><img src="./images/svs.jpg"width="150" height="150"></td>
+    <td><img src="./images/urjanet.jpg"width="150" height="150"></td>
+    <td><img src="./images/gigamon.jpg"width="150" height="150"></td>
+    </tr>
+    </table></div><br/><br/>
+
+    <div class="courses"><h1>-Testimonial-</h1></div><br/><br/>
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+    <div class="item active"><div class="itemactive">
+    <img src="./images/guvi.jpg" style="border-radius:50%;width:200px;height:200px;"></div><h3>Karthikeyan Parthiban<br/>Experience Designer - UXIndia</h3><font size="2">"For freshers, GUVI is the best place they could start from. The interactive tutorials on their site helped me to track the progress and also keeps me motivated in completing them. Now I work as an Experience Designer at <strong>UXIndia</strong>."</font>
+    </div>
+    <div class="item"><div class="itemactive">
+    <img src="./images/guvi.jpg" style="border-radius:50%;width:200px;height:200px;"></div><h3>Mohanraj N<br/>Software Engineer - PayPal</h3><font size="2">"Guvi helps me to learn technology and to improve my coding skills and logical problem-solving ability. I got an opportunity to attend an interview in PayPal via guvi and I got an offer at <strong>PayPal</strong>. Guvi is a great platform when it utilized in right manner."</font>
+    </div>
+    <div class="item"><div class="itemactive">
+    <img src="./images/guvi.jpg" style="border-radius:50%;width:200px;height:200px;"></div><h3>Bhuvaneshwari R<br/>Software Engineer - Urjanet</h3><font size="2">"I got guvi account with the help of my college.Then I started to solve problems in code kata and used to listen java videos.I learned java with the help of Guvi.Urjanet drive came to my college via GUVI and I received an offer from <strong>urjanet</strong>.Thanks to Guvi."</font>
+    </div></div>
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+    </a>
+    </div>
+    </div>
+
+
+    <div class="navbar">
+    <a href=" https://www.guvi.in/about_us">About us</a>
+    <a href="https://www.guvi.in/contact_us ">Contact</a>
+    <a href="https://www.guvi.in/career ">Career</a>
+    <a href="https://www.guvi.in/team ">Team</a>
+    <a href="https://www.guvi.in/jobs">Jobs</a>
+    <a href="https://www.guvi.in/terms-of-service ">T&C</a>
+  </body>
+</html>
