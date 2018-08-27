@@ -1,0 +1,94 @@
+.container{
+     width:100%;
+     }
+.carousel-inner{
+    padding-left:400px;
+    padding-right:400px;
+    width:100%;
+    height:250px;
+    background-color:#ffffff;
+}
+.itemactive{
+      float:left;
+      }
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width:100%;
+   height:50px;
+   background-color:white;
+}
+#header li {
+    display: block;
+    padding: 8px;
+}
+#start {
+   width:100%;
+   height:500px;
+   background-color:#f7f7f7;
+}
+#start td{
+    padding-top:50px;
+    padding-left:120px;
+    padding-right:120px;
+}
+#start tr{
+    padding:10px;
+}
+#startbutton button{
+   background-color:#ff4500;
+}
+#startbutton {
+    padding-left:560px;
+}
+.courses {
+   padding-left:580px;
+}
+.course {
+   padding-left:140px;
+   padding-right:180px;
+}
+.course td{
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.container {
+    position: relative;
+    font-family: Arial;
+}
+.textonimg {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    background-color:none;
+    color: white;
+    width:300px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #f7f7f7;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.navbar a {
+  float:left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#section{
+ height:500px;
+}
+#viewall{
+  display:none;
+}
